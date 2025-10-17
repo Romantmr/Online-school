@@ -23,6 +23,10 @@ function Navbar() {
             padding: '8px 12px', borderRadius: 10, textDecoration: 'none', color: 'white',
             background: isActive ? 'rgba(255,255,255,0.06)' : 'transparent'
           })}>Главная</NavLink>
+          <NavLink to="/pricing" style={({ isActive }) => ({
+            padding: '8px 12px', borderRadius: 10, textDecoration: 'none', color: 'white',
+            background: isActive ? 'rgba(255,255,255,0.06)' : 'transparent'
+          })}>Тарифы</NavLink>
           <NavLink to="/profile" style={({ isActive }) => ({
             padding: '8px 12px', borderRadius: 10, textDecoration: 'none', color: 'white',
             background: isActive ? 'rgba(255,255,255,0.06)' : 'transparent'
