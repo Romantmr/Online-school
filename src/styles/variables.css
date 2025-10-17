@@ -1,0 +1,17 @@
+:root {
+  --color-blue: #0b5fff;
+  --color-blue-600: #0a4fe0;
+  --color-green: #46d19f;
+  --color-green-600: #33b685;
+  --color-bg: #0f172a; /* deep slate */
+  --color-surface: #111827; /* near black */
+  --color-card: #0b1220; /* dark navy */
+  --color-text: #e5e7eb; /* light gray */
+  --color-muted: #9ca3af;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 10px;
+  --shadow-lg: 0 12px 30px rgba(11, 95, 255, 0.25);
+  --shadow-md: 0 8px 20px rgba(70, 209, 159, 0.18);
+}
+
